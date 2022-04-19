@@ -1,6 +1,6 @@
 
-function sayHello(name) {
-    console.log('Hello '+ name);
+function sayHello(name, branch) {
+    console.log('Hello '+ name + ', welcome to the ' + branch + ' branch');
 }
 
-sayHello('Bryon');
+sayHello('Bryon', 'Node Module');
